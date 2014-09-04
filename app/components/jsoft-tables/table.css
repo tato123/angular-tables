@@ -1,0 +1,50 @@
+.angular-table
+{
+	/*border: 1px solid #efefef;*/
+	display: block;
+	width: 75%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.angular-table-body
+{
+	display: block;
+	width: inherit;
+	height: inherit;
+	padding: 0px;
+	margin: 0px;
+}
+
+.angular-table-header
+{
+	background-color: #ccc;
+}
+
+.angular-table-entry
+{
+	cursor: pointer;
+}
+
+.angular-table-entry:first-child
+{
+	border-top: 1px solid #efefef;
+}
+
+.hover
+{
+	background-color: #000;
+}
+
+.angular-table-entry .angular-entry-col:first-child
+{
+	border-left: 1px solid #efefef;
+}
+
+.angular-table-entry .angular-entry-col
+{
+	border-bottom: 1px solid #efefef;	
+	display: block;
+	height: 20px;
+	border-right: 1px solid #efefef;
+}
